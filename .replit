@@ -1,0 +1,5 @@
+[nix]
+channel = "stable-25_05"
+[interpreter]
+command = ["bash", "-c", "gcc main.c -o main && ./main"]
+
