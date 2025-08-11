@@ -23,7 +23,5 @@ int main(){
   testeone(v, n);
   
 
-    
-
-  return 0;
+   return 0;
 }
