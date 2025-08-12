@@ -43,3 +43,12 @@ else {
     let tela = document.getElementById('tela');
     tela.value = '';
   }
+
+function string(){
+    let texto= prompt("Digite uma palavra para vermos se ela é grande");
+  alert(
+    `A palavra tem ${texto.length} letras`+ "\n" +
+     ( texto.length>=10? "Palavra grande":  "Palavra pequena")    
+  );
+}
+
